@@ -1,0 +1,7 @@
+dmg/integration/sampleapp/*.dmg
+TODO
+coverage.out
+dist/
+**/.DS_Store
+icon.png
+cmd/gui/MacOSDMGCreator
