@@ -1,5 +1,7 @@
 # macos-dmg-creator
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/tiagomelo/macos-dmg-creator.svg)](https://pkg.go.dev/github.com/tiagomelo/macos-dmg-creator)
+
 ![logo](docs/logo.png)
 
 A macOS DMG package builder with a native GUI and CLI support. Easily wrap your app binaries into `.app` bundles and generate `.dmg` installers with a custom icon.
