@@ -68,11 +68,11 @@ after installing, you can use the CLI like this:
 
 ```bash
 createdmg \
-  --appName "GreeterApp" \
-  --appBinaryPath "dmg/integration/sampleapp/SampleApp" \
-  --bundleIdentifier "info.tiagomelo.greeterapp" \
-  --iconPath "dmg/integration/sampleapp/icon.png" \
-  --outputDir "dmg/integration/sampleapp"
+  --appName "MyApp" \
+  --appBinaryPath "path/to/appBinary" \
+  --bundleIdentifier "com.example.myapp" \
+  --iconPath "path/to/icon.png" \
+  --outputDir "path/to/dir"
 ```
 
 ### CLI Flags
