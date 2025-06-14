@@ -223,12 +223,12 @@ func (g *gui) setupContent() fyne.CanvasObject {
 				dialog.ShowError(err, g.fyneWindow)
 				return
 			}
-			fyne.DoAndWait(func() {
-				progressBarDialog.Hide()
-				dialog.ShowInformation("Success", "DMG was successfully created!", g.fyneWindow)
-				form.Enable()
-			})
+
+			progressBarDialog.Hide()
+			dialog.ShowInformation("Success", "DMG was successfully created!", g.fyneWindow)
+			form.Enable()
 		}()
+
 	}
 
 	return container.NewVBox(form)

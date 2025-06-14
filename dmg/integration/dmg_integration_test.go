@@ -27,6 +27,12 @@ func TestMain(m *testing.M) {
 		}
 	}
 
+	// if err := os.Remove("dmg/integration/sampleapp/GreeterApp.dmg"); err != nil {
+	// 	err = errors.Wrapf(err, "failed to remove sampleapp/GreeterApp.dmg")
+	// 	fmt.Println(err)
+	// 	os.Exit(1)
+	// }
+
 	os.Exit(exitVal)
 }
 
